@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-project",
+  "version": "1.0.0",
+  "description": "Full-stack demo: semantic HTML, responsive CSS, state-managed JS, REST API client, and an Express server for deployment.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
